@@ -260,7 +260,6 @@ li{
         display: flex;
         flex-direction: row;
         border: 0 solid;
-        justify-content: center;
     }
     #div_principal{
         display: flex;
@@ -274,20 +273,43 @@ li{
 
     #box{
         border: 1px solid;
-        height: 400px;
+        height: 700px;
         width: 100%;
     }
 
     #tela{
-        border: 1px solid;
+    
         width: 100%;
     }
 
-    .div_principal_pergunta{
-        border: 1px solid red;
-        
+    #footer{
+        height:100px ;
     }
 
-    .div_pergunta{
+    #entrada{
+        margin: 0;
+        top: 740px;
+        left: 6px;
+        z-index: 99;
+        width: 100%;
     }
+
+    #texto{
+        width: 65%;
+    }
+    
+    #enviar{
+        width: 25%;
+    }
+
+    #absolute {
+        position: absolute;
+        bottom: 170px;
+        right: 70px;
+    }
+      
+    #div_voltar{
+        width: 155px;
+    }
+    
 }
