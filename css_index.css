@@ -1,5 +1,6 @@
 #hr{
     width: 100%;
+    color: black;
 }
 
 #div_conteudo{
@@ -27,5 +28,12 @@
 }
 
 @media (max-width: 600px) {
-    
+    #format_div_conteudo{
+        width:80%;
+    } 
+
+    #img_nao_se_cale{
+        width: 18em;
+        margin-bottom: 20px;
+    }
 }

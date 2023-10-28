@@ -1,10 +1,19 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("/static/img/img_bot/MAOS_UNIAO.png");
+    background: url("MAOS_UNIAO.png");
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: Inter;
@@ -25,7 +34,6 @@ body{
 
 #form_head{
     font-size: 35px;
-    width: 500px;
     justify-content: center;
     display: flex;
 }
@@ -155,6 +163,8 @@ a:hover{
         background-size: 100%;
         font-family: Inter;
         width: 100%;
+        overflow-x: hidden;
+        padding: 0;
     }
 
     .imagens{
@@ -163,10 +173,29 @@ a:hover{
 
     #absolute {
         position: absolute;
-        bottom: 80px;
-        right: 80px;
+        bottom: 130px;
+        right: 130px;
     }
+      
     #botoes-acao {
         position: fixed; /* não defina top/bottom/left/right */  
     }
+    
+    .bnt_gardiao{
+        width: 50%;
+    }
+
+    #div_head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 130px;
+        flex-direction: column;
+    }
+
+    hr{
+        border-color: black;
+        width: 0%;
+    }
+    
 }
