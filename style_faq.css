@@ -41,3 +41,19 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 600px) {
+    #div_faq{
+        width: 100%;
+    }
+
+    .botao{
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .div_botao{
+        width: 80%;
+    }
+}
