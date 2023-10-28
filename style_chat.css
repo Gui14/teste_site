@@ -253,7 +253,7 @@ li{
     flex-direction: row;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     #div_lateral{
         width: 100%;
         height: 100px;
@@ -287,8 +287,8 @@ li{
 
     #entrada{
         margin: 0;
-        top: 740px;
-        left: 6px;
+        top: 85%;
+        left: 2%;
         z-index: 99;
         width: 100%;
     }
