@@ -36,4 +36,12 @@
         width: 18em;
         margin-bottom: 20px;
     }
+
+    #faq{
+        color: rgba(0, 0, 0, 0.652);
+    }
+
+    #chat{
+        color: rgba(0, 0, 0, 0.652);
+    }
 }

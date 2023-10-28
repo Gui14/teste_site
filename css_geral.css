@@ -189,7 +189,7 @@ a:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 130px;
+        height: 100px;
         flex-direction: column;
     }
 
@@ -236,5 +236,9 @@ a:hover{
 
     h2{
         margin-bottom: 5%;
+    }
+
+    #form_head{
+        font-size: 30px;
     }
 }
