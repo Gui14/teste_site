@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/static/css/css_index/css_geral.css">
-    <link rel="stylesheet" href="/static/css/css_index/style_faq.css">
+    <link rel="stylesheet" href="css_geral.css">
+    <link rel="stylesheet" href="style_faq.css">
 </head>
 <body>
     <div id="popupContainer">
@@ -14,7 +14,7 @@
             <h2>Atenção!</h2>
             <p>Deseja realmente acionar o guardião?</p>
             <div id="format">
-                <form action="{% url 'inicio'%}" method="POST">{% csrf_token %}
+                <form action="{% url 'inicio'%}" method="POST">
                     <button type="submit" id="botao_confirmar">Confirmar</button>
                 </form>
                 <button  id="closePopup">Cancelar</button>
@@ -24,11 +24,11 @@
     <head>
         <div id="div_head">
             <div id="form_head">
-                <a href="{%url 'aila'%}">CHAT</a>
+                <a href="aila.html">CHAT</a>
     
-                <a href="{%url 'inicio'%}">INÍCIO</a>
+                <a href="index.html">INÍCIO</a>
                 
-                <a href="{%url 'faq'%}"><u>FAQ</u></a>
+                <a href="faq.html"><u>FAQ</u></a>
             </div>
             <hr>
         </div>
@@ -36,7 +36,7 @@
         <div>
             <div id="div_main">
                 <div id = "testeConteudo">
-                    <img src="/static/img/img_bot/3288175e129d645503bd035585ebec44.png" alt="" class="imagens">
+                    <img src="img_bot/3288175e129d645503bd035585ebec44.png" alt="" class="imagens">
                 </div>
                 <div id="div_faq">
                     <div class="div_botao">
@@ -99,6 +99,6 @@
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/static/js/script_faq.js"></script>
+    <script src="script_faq.js"></script>
 </body>
 </html>
