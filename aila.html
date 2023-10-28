@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/static/css/css_index/style_chat.css">
+    <link rel="stylesheet" href="style_chat.css">
 </head>
 <body>
     <div id="popupContainer">
@@ -13,7 +13,7 @@
             <h2>Atenção!</h2>
             <p>Deseja realmente acionar o guardião?</p>
             <div id="format">
-                <form action="{% url 'inicio'%}" method="POST">{% csrf_token %}
+                <form action="{% url 'inicio'%}" method="POST">
                     <button type="submit" id="botao_confirmar">Confirmar</button>
                 </form>
                 <button  id="closePopup">Cancelar</button>
@@ -23,7 +23,7 @@
     <div id="div_principal">
         <div id="div_lateral">
             <div id="div_voltar">
-                <a href="{% url 'inicio'%}"><button id="voltar">Voltar</button></a>
+                <a href="index.html"><button id="voltar">Voltar</button></a>
             </div>
             <div>
                 <h1>Aila</h1>
@@ -31,26 +31,19 @@
         </div>
         <div id="box">
             <div id="tela">
-                {% if pergunta %}
-                {% for i in pergunta %}
                 <div class="div_principal_pergunta">
                     <div class="div_pergunta">
-                        {{i}}
+                    
                     </div>
                 </div>
-                {% endfor %}
-                {% for x in resposta %}
                 <div class="div_resposta">
-                    {{x}}
                 </div>
-                {% endfor %}
-                {% endif %}
                 <div id="footer">
 
                 </div>
             </div>
             <div id="entrada">
-                <form action="/nome_site/aila/" method="POST" id="formulario"> {% csrf_token %}
+                <form action="/nome_site/aila/" method="POST" id="formulario">
                     <input type="text" id="texto" name="pergunta">
                     <button  id="enviar" onclick="adicionar()">Enviar</button>
                 </form>
@@ -61,10 +54,9 @@
         <div>
             <div id="absolute">
                 <div id="botoes-acao">
-                    <img src="/static/img/img_bot/botao_guardiao 1.png" class="bnt_gardiao" id="botao_guarda">
+                    <img src="img_bot/botao_guardiao 1.png" class="bnt_gardiao" id="botao_guarda">
                 </div>
               </div>
-            <img src="/static/img/Group 7.png" alt="" id="img_footer">
         </div>
     </footer>
     <script>
