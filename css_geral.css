@@ -144,3 +144,29 @@ a:hover{
     display:flex;
     flex-direction: row;
 }
+
+@media (max-width: 600px) {
+    body{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: url("/static/img/img_bot/MAOS_UNIAO.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        font-family: Inter;
+        width: 100%;
+    }
+
+    .imagens{
+        width: 19em;
+    }
+
+    #absolute {
+        position: absolute;
+        bottom: 80px;
+        right: 80px;
+    }
+    #botoes-acao {
+        position: fixed; /* não defina top/bottom/left/right */  
+    }
+}
