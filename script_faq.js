@@ -2,12 +2,12 @@ $(function(){
     $(".botao").hover(
         function(){
             //Ao posicionar o cursor sobre a div
-            $(this).css('background', 'rgb(187, 184, 184)');
+            $(this).css('background', 'rgb(193, 173, 237)');
            
         },
         function(){
             //Ao remover o cursor da div
-            $(this).css('background', 'rgba(233, 224, 252)');
+            $(this).css('background', 'rgb(212, 199, 240)');
         }
     );
 });
